@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8" />
+
+</head>
+  <body>
+   <script>
+    let minVariabel = 18;
+	console.log("minVariabel har verdien: " + minVariabel);
+	
+	let mittTall2 = 12;
+	console.log("mittTall2 har verdien:" + mittTall2);
+	
+	let minTekst = "Heisann";
+	console.log("minTekst har verdien: " + minTekst)
+	
+	let liste = [];
+	liste.push("hest");
+	liste.push("ape");
+	liste.push("hund");
+	liste.push("katt");
+	console.log(liste);
+	
+	 for (let index = 0; index < liste.length; index++) {
+	 console.log(index + ": " + liste[index])
+	 }
+	 
+	 for (let index = liste.length - 1; index >= 0; index--) {
+	 console.log(index + ": " + liste[index])
+	 }
+	 
+	 let farge = []
+	 farge.push("sort");
+	 farge.push("hvit");
+	 farge.push("blå");
+	 farge.push("rød");
+	 farge.push("grønn");
+	 console.log(farge);
+	 
+	 for (let indexa = 0; indexa < liste.length; indexa++) {
+		for (let indexb = 0;indexb < farge.length; indexb++) {
+			console.log(liste[indexa] +"-" + farge[indexb])
+		}
+	 
+	 }
+	 
+	 
+	</script>
+	
+</body>
+</html>
